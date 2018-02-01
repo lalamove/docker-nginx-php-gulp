@@ -1,4 +1,4 @@
-FROM lalamove/nginx-php:1.0.2-php55
+FROM lalamove/nginx-php:1.1.0-php55
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 RUN sudo apt-get install -y -q nodejs
