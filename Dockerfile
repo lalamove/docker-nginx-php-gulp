@@ -7,6 +7,7 @@ RUN sudo npm install --g gulp
 RUN sudo npm install gulp laravel-elixir
 RUN sudo npm uninstall npm -g
 
+RUN sudo apt-get install software-properties-common
 RUN sudo add-apt-repository -y ppa:apachelogger/s3fs-fuse
 RUN sudo apt-get update
 RUN sudo apt-get install -q -y s3fs-fuse
